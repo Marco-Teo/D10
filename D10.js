@@ -436,7 +436,17 @@ const addClassToTr = ()=>{
   ***
 
 */
-
+const halfTree = (numero)=>{
+  
+  for (let i = 0; i < numero; i++){
+    let stringa =""
+    for(let j= 0; j<i;j++){
+      stringa += "*"
+    }
+    console.log(stringa)
+  }
+}
+  halfTree(50)
 /* ESERCIZIO 28
   Crea una funzione chiamata "tree" che riceve un numero come parametro e costruisce un albero di "*" (asterischi) dell'altezza fornita.
 
