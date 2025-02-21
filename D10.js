@@ -7,6 +7,7 @@ REGOLE
 - Per farlo puoi utilizzare il terminale Bash, quello di VSCode o quello del tuo sistema operativo (se utilizzi macOS o Linux)
 */
 
+
 // JS Basics
 
 /* ESERCIZIO A
@@ -456,9 +457,23 @@ const halfTree = (numero)=>{
     *
    ***
   *****
+ *******
 
 */
-
+const Tree = (numero)=>{
+  const maxAsterischi = numero*2-1
+  for (let i = 0; i < numero; i++){
+    let stringa =""
+    let nrAsterischi = i *2-1
+    let nrSpazi = maxAsterischi-nrAsterischi
+    for(let j= 0; j<maxAsterischi;j++){
+      nrAsterischi += "*"
+      for()
+    }
+    console.log(stringa)
+  }
+}
+Tree(4)
 /* ESERCIZIO 29
   Crea una funzione chiamata "isItPrime" che riceve un numero come parametro e ritorna true se il numero fornito è un numero primo.
 */
